@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 5: Dinner Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dinner.css">
+</head>
+<body>
+  <div class="bg">
+  <h1>You're Invited to A Special Dinner!</h1>
+  <p>Please join us for an evening with three guests of honor.</p>
+  </div>
+
+  <h2 class="bg">Guests of Honor</h2>
+
+  <h3 class="bg2">Hiccup of Berk</h3>
+  <img src="hiccup.jpg" alt="Hiccup portrait" width="300">
+  <p class="bg2">Hiccup shows how empathy and courage can reshape a whole culture. I’d love to ask how he learned to lead with understanding, and what it took to bridge fear and friendship between Vikings and dragons.</p>
+
+  <h3 class="bg3">Poppy from Trolls</h3>
+  <img src="poppy.jpg" alt="poppy portrait" width="300">
+  <p class="bg3">Poppy’s optimism is contagious. I’d invite her to learn how she keeps joy alive during tough times, and how music and community help her bring people together.</p>
+
+  <h3 class="bg4">Hawk Moth from ladybug</h3>
+  <img src="hawkmoth.jpg" alt="Hawkmoth portrait" width="300">
+  <p class="bg4">Hawk Moth would bring the sharp edge to the discussion. I’d ask why he believes the ends justify the means, and whether understanding others’ pain could ever change his choices.</p>
+
+  <div class="bg">
+  <h2>Dinner Menu</h2>
+  <ul>
+    <li><strong>Appetizers:</strong> Herb crostini, veggie dumplings</li>
+    <li><strong>Main Course:</strong> Honey-garlic salmon or roasted veggie pasta (vg)</li>
+    <li><strong>Sides:</strong> Garden salad, rosemary potatoes</li>
+    <li><strong>Dessert:</strong> Berry parfait, chocolate torte</li>
+    <li><strong>Drinks:</strong> Sparkling water, iced tea</li>
+  </ul>
+  </div>
+
+  <div class="bg">
+  <h2>RSVP</h2>
+  <form action="#" method="post">
+    <p>
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" required>
+    </p>
+
+    <p>Will you be bringing a guest?</p>
+    <p>
+      <label><input type="radio" name="bring_guest" value="yes" required> Yes</label>
+      <label><input type="radio" name="bring_guest" value="no"> No</label>
+    </p>
+
+    <p>
+      <label for="diet">Dietary preferences</label><br>
+      <textarea id="diet" name="diet" rows="4" cols="40" placeholder="Allergies or preferences"></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit RSVP</button>
+    </p>
+  </form>
+</div>
+
+</body>
+</html>
