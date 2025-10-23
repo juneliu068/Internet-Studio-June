@@ -1,0 +1,20 @@
+h1,h2,h3 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto Serif", serif;    
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  font-family: "Roboto Serif", serif;    
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
