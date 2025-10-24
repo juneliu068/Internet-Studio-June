@@ -1,5 +1,8 @@
-/* styles.css */
+body {
+	background-color: #FFF8BF;
+	color: #1c305c;
+}
 
-* {
-	font-family: Arial;
+img {
+	border-radius: 15px;
 }
