@@ -6,3 +6,9 @@ body {
 img {
 	border-radius: 15px;
 }
+
+.page {
+  max-width: 900px;          /* any width you like */
+  margin: 40px auto;         /* 40px top/bottom, auto left/right = centered */
+  padding: 0 16px;           /* a little inner breathing room */
+  text-align: center; 
