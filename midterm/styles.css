@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('fonts/jost-v20-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/montserrat-v31-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans Adlam Unjoined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-sans-adlam-unjoined-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Kanchenjunga';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/kanchenjunga-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  font-family: 'jost';
+  line-height: 1.5;
+  color: #222;
+  background-color: #ffffff;
+  background-image: none;
+  background-repeat: repeat;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+a {
+  color: #302621;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  background: #fff;
+}
+
+.site {
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav .current {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 12px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+  font-family: 'Kanchenjunga';
+}
+
+ul {
+  margin: 10px 0 10px 20px;
+  font-family: 'Kanchenjunga';
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 16px 0;
+}
+
+.hero {
+  margin: 12px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #302621;
+  color: #fff;
+  border: 1px solid #ffffff;
+}
+
+.btn.alt {
+  background: #fff;
+  color: #302621;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top: 20px;
+  background: #fff;
+}
+
+/* form */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Kanchenjunga';
+}
+
+.home {
+  background-repeat: repeat;
+  background-color: #f5fbff;
+  background-image: url("images/yellow.jpeg");
+}
+
+.activities {
+  background-repeat: repeat;
+  background-color: #f5fbff;
+  background-image: url("images/whitewav.avif");
+}
+
+.dining {
+  background-color: #fffaf0;
+  background-image: url("images/tealwav.jpeg");
+}
+
+.statement {
+  background-color: #f5fff6;
+  background-image: url("images/whiteflow.jpeg");
+}
+
+.contact {
+  background-color: #f9f5ff;
+  background-image: url("images/brownwav.jpeg");
+}
+
+.home .hero {
+  background-image: url("images/toriigate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 320px;      
+  margin: 12px 0;     
+}
