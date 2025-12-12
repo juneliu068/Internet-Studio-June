@@ -1,0 +1,117 @@
+
+@font-face {
+  font-display: swap;
+  font-family: 'Asta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/asta-sans-v3-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Castoro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/castoro-v20-latin-regular.woff2') format('woff2');
+}
+
+:root {
+  --bg-dark: #0f172a;
+  --text-dark: #0b1324;
+  --accent: #60a5fa;
+  --card-bg: #b5d0eb; 
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/navybkg.jpeg");
+  background-size: cover;          
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+
+  /* font for paragraph text */
+  font-family: 'Castoro', serif;
+  color: var(--text-dark);
+}
+
+/* ----- Page Container ----- */
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 40px 20px 60px 20px;
+}
+
+/* ----- Header Area ----- */
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+  color: white;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+}
+
+h1 {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-family: 'Castoro', serif;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+h2 {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--bg-dark);
+  padding-left: 10px;
+}
+
+h3 {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+
+p {
+  font-family: 'Castoro', serif;
+  font-size: 16px;
+  line-height: 1.7;   
+  margin-bottom: 12px;
+}
+
+
+.card {
+  background: var(--card-bg);
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+
+.wire-subtitle {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+
+\
