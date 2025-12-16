@@ -1,0 +1,94 @@
+ /* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* almarai-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/almarai-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body{
+margin:0;
+font-family: 'Almarai';
+
+/* background image */
+background-image:url("images/nyc-collage.jpg");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+.wrap{
+
+}
+
+.page{
+  max-width:1000px;
+  margin: 24px auto;
+  padding:18px;
+  background: rgba(255,255,255,0.88);
+  border-radius:14px;
+}
+
+/* headings */
+ h1,h2,h3{
+  font-family: 'Adamina';
+   margin-top:0;
+}
+
+/* spacing  */
+.intro{ margin-bottom:12px; }
+.palette-text{
+  font-weight:600;
+  margin-bottom: 8px;
+}
+
+.jobs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  align-items:stretch;
+}
+
+/* cards */
+.card{
+  width:300px;
+  background:#fff;
+  padding:14px;
+  border-radius:12px;
+
+  /* borders */
+  border:1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+}
+
+.logo{
+  width:60px;
+  height:60px;
+  object-fit:contain;
+}
+
+.link{
+  display:inline-block;
+  margin:8px 0 10px 0;
+  padding:8px 10px;
+  background:#3AA0FF;
+  color:#0B1320;
+  text-decoration:none;
+  font-weight:600;
+  border-radius:10px;
+}
+
+
+.top{
+  margin-bottom:6px;
+}
